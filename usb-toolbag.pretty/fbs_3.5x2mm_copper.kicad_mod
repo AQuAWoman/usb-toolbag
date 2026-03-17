@@ -1,0 +1,141 @@
+(footprint "fbs_3.5x2mm_copper"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "G***"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c81b92c2-9f3d-442d-a6ac-ce793679b907")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "LOGO"
+		(at 0.75 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c7443ded-617c-40ab-a429-dc49f85c671c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82607215-d635-4f05-b90d-6242c52025c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66b718b6-23c7-4ffd-97ec-743b6be4e06e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "10f51cf9-119d-4508-b5ee-3a2418d2deb3")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.771275 -0.963232) (xy -1.081275 -1.103232) (xy -1.001275 -1.173232) (xy -1.111275 -1.333232)
+				(xy -1.131275 -1.423232) (xy -1.141275 -1.553232) (xy -1.111275 -1.713232) (xy -1.081275 -1.773232)
+				(xy -1.021275 -1.803232) (xy -0.951275 -1.793232) (xy -0.896946 -1.757763) (xy -0.865974 -1.681956)
+				(xy -0.820609 -1.570921) (xy -0.701275 -1.403232) (xy -0.560993 -1.313546) (xy -0.483563 -1.266005)
+				(xy -0.401275 -1.163232) (xy -0.259806 -0.968688) (xy -0.163611 -0.881858) (xy 0 -0.81) (xy 0 -0.17)
+				(xy -0.321275 -0.023232) (xy -0.561275 -0.003232) (xy -1.041275 -0.033232) (xy -1.101275 -0.083232)
+				(xy -1.101275 -0.123232) (xy -1.291275 -0.133232) (xy -1.371275 -0.143232) (xy -1.411275 -0.183232)
+				(xy -1.421275 -0.283232) (xy -1.371275 -0.423232) (xy -2.191275 -0.403232) (xy -2.271275 -0.423232)
+				(xy -2.311275 -0.473232) (xy -2.331275 -0.533232) (xy -2.301275 -0.613232) (xy -2.231275 -0.703232)
+				(xy -2.251275 -0.793232) (xy -2.241275 -0.923232) (xy -2.091275 -0.953232) (xy -2.041275 -0.923232)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "b6b45b4f-a344-4375-b510-8efd52dede0d")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.699435 -0.728154) (xy -2.688056 -0.722544) (xy -2.68341 -0.718549) (xy -2.672726 -0.702126)
+				(xy -2.671806 -0.684497) (xy -2.6806 -0.666374) (xy -2.68769 -0.658269) (xy -2.695858 -0.65084)
+				(xy -2.704771 -0.64485) (xy -2.71589 -0.639896) (xy -2.730674 -0.635575) (xy -2.750583 -0.631485)
+				(xy -2.777079 -0.627223) (xy -2.81162 -0.622387) (xy -2.823637 -0.620781) (xy -2.85672 -0.615777)
+				(xy -2.895668 -0.608915) (xy -2.936685 -0.600921) (xy -2.975975 -0.59252) (xy -2.996137 -0.587828)
+				(xy -3.030898 -0.579497) (xy -3.057407 -0.573411) (xy -3.077115 -0.569405) (xy -3.091477 -0.567315)
+				(xy -3.101944 -0.566978) (xy -3.109971 -0.56823) (xy -3.11701 -0.570908) (xy -3.122262 -0.573616)
+				(xy -3.137725 -0.586827) (xy -3.145519 -0.603849) (xy -3.145799 -0.622269) (xy -3.138721 -0.639674)
+				(xy -3.124442 -0.653648) (xy -3.116813 -0.65771) (xy -3.106866 -0.660704) (xy -3.08864 -0.664896)
+				(xy -3.063739 -0.669971) (xy -3.033769 -0.675609) (xy -3.000334 -0.681495) (xy -2.976137 -0.685525)
+				(xy -2.93837 -0.691822) (xy -2.900295 -0.698444) (xy -2.864185 -0.704978) (xy -2.832312 -0.711007)
+				(xy -2.806948 -0.716117) (xy -2.797685 -0.718136) (xy -2.762425 -0.72552) (xy -2.735226 -0.729647)
+				(xy -2.714693 -0.730524)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

@@ -5,6 +5,450 @@
 	(uuid "51676427-311c-482b-bfc7-5e58b020eaff")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Adafruit Feather RP2040 DVI-eagle-import:adafruit_DIODESOD-323F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit Feather RP2040 DVI:SOD-323F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "adafruit_DIODESOD-323F_1_0"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit Feather RP2040 DVI-eagle-import:adafruit_electromech_SWITCH_TACT_SMT_RKB2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at -2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit Feather RP2040 DVI:BTN_RKB2_4.6X2.8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "adafruit_electromech_SWITCH_TACT_SMT_RKB2_1_0"
+				(circle
+					(center -2.54 0)
+					(radius 0.127)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 4.445) (xy -1.905 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.445) (xy -1.905 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.445) (xy 0 3.175)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 4.445) (xy 0 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 4.445) (xy 1.905 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.127)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "P"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "P1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A'"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "B'"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Adafruit Feather RP2040 DVI-eagle-import:adafruit_power_VREG_SOT23-5"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -204,6 +648,920 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_CAP_CERAMIC0805-NOOUTLINE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.29 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 2.3 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit Feather RP2040 DVI:0805-NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "microbuilder_CAP_CERAMIC0805-NOOUTLINE_1_0"
+				(rectangle
+					(start -1.27 1.524)
+					(end 1.27 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_CAP_CERAMIC_0402NO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.29 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 2.3 1.25 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit Feather RP2040 DVI:_0402NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "microbuilder_CAP_CERAMIC_0402NO_1_0"
+				(rectangle
+					(start -1.27 1.524)
+					(end 1.27 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_CRYSTAL2.5X2.0"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit Feather RP2040 DVI:CRYSTAL_2.5X2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "microbuilder_CRYSTAL2.5X2.0_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.016 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.778) (xy -1.016 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -1.016 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 1.524) (xy -0.381 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.524) (xy 0.381 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.524) (xy -0.381 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 -1.524) (xy 0.381 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.778) (xy 1.016 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.016 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.016 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_RESISTOR_0402NO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit Feather RP2040 DVI:_0402NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "microbuilder_RESISTOR_0402NO_1_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_SPIFLASH_8PIN_4X4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 12.7 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -12.7 -10.16 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit Feather RP2040 DVI:USON8_4X4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "microbuilder_SPIFLASH_8PIN_4X4_1_0"
+				(polyline
+					(pts
+						(xy -12.7 10.16) (xy 12.7 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -7.62) (xy -12.7 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 10.16) (xy 12.7 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -7.62) (xy -12.7 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "SSEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "WP#/IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "HOLD#/IO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PAD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x25_Pin"
 			(pin_names
 				(offset 1.016)
@@ -212,8 +1570,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J2"
-				(at 0.635 35.56 0)
+			(property "Reference" "J"
+				(at 0 33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -221,14 +1579,14 @@
 				)
 			)
 			(property "Value" "Conn_01x25_Pin"
-				(at 0.635 33.02 0)
+				(at 0 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "usb-toolbag:PinHeader_1x25_P1.00mm_Vertical"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -246,7 +1604,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Generic connector, single row, 01x25, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -255,6 +1622,15 @@
 				)
 			)
 			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1599,486 +2975,6 @@
 					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Crystal"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Two pin crystal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4074,393 +4970,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_Flash:GD25QxxxEY"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U4"
-				(at -12.7 12.7 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "8MB QSPI"
-				(at -12.7 -10.16 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Package_SON:WSON-8-1EP_4x4mm_P0.8mm_EP2.2x3mm"
-				(at -0.254 -24.892 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.winbond.com/resource-files/W25Q64JV%20RevK%2003102021%20Plus.pdf"
-				(at 0 -27.178 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3.0V, Standard/Dual/Quad Serial Flash, WSON-8"
-				(at 0 -29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SPI DSPI QSPI 3.0V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GD25QxxxEY_0_1"
-				(rectangle
-					(start -10.16 12.7)
-					(end 10.16 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "GD25QxxxEY_1_1"
-				(pin input line
-					(at -12.7 7.62 0)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "SCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "SI/IO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "SO/IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "~{WP}/IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "~{HOLD}/~{RESET}/IO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -15.24 90)
-					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -4860,10 +5369,22 @@
 		(uuid "0f523eaf-f2c4-4ad5-bcd1-27eb893eb4a4")
 	)
 	(junction
+		(at 250.19 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "177467e2-f783-4061-8bc7-b61913ca279b")
+	)
+	(junction
 		(at 90.17 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c04c744-4f5f-41a6-9fa6-0de1855b2412")
+	)
+	(junction
+		(at 247.65 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "263a23c7-903d-44dd-ade5-0d80513af289")
 	)
 	(junction
 		(at 90.17 71.12)
@@ -4872,16 +5393,16 @@
 		(uuid "26499804-2258-41e4-aa2d-7214b913e184")
 	)
 	(junction
+		(at 39.37 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e6c73c0-7700-4783-847c-a7ae8f59f3fb")
+	)
+	(junction
 		(at 128.27 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30e61dfb-12ad-4e64-ad20-ac32ef6b016d")
-	)
-	(junction
-		(at 29.21 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a8f4408-e618-4476-863d-f888d356d568")
 	)
 	(junction
 		(at 161.29 119.38)
@@ -4896,10 +5417,22 @@
 		(uuid "3f84ac85-bd00-44ee-835f-030514f7bef6")
 	)
 	(junction
+		(at 265.43 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "473ef45b-c4b3-4e2a-9401-22bce3859812")
+	)
+	(junction
 		(at 52.07 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b5c3fc8-3021-4a1c-ae11-573245f87b83")
+	)
+	(junction
+		(at 265.43 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53a97874-5e72-4f0a-9b1b-9649a8fbc7ce")
 	)
 	(junction
 		(at 39.37 96.52)
@@ -4920,28 +5453,10 @@
 		(uuid "646c6e57-8dae-4f54-8261-0787a359a640")
 	)
 	(junction
-		(at 128.27 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "656d36ce-e74b-4fbf-ba50-02297fe20bd4")
-	)
-	(junction
 		(at 97.79 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "686f11e6-f0ff-45fa-890e-ddcd88a6fab8")
-	)
-	(junction
-		(at 38.1 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8177d740-5c08-4185-b93d-d0403b66ded1")
-	)
-	(junction
-		(at 38.1 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84ea23b1-89e8-4d0d-aa22-02bd7dbd4a66")
 	)
 	(junction
 		(at 92.71 71.12)
@@ -4980,6 +5495,12 @@
 		(uuid "a2ec7fd1-55ce-4dd3-a769-80f9c6d8fc80")
 	)
 	(junction
+		(at 59.69 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3cb23e4-2a5f-4403-9fb7-c25a88f99faa")
+	)
+	(junction
 		(at 97.79 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5004,6 +5525,12 @@
 		(uuid "c781ae59-986d-444e-889e-bb8723c00891")
 	)
 	(junction
+		(at 39.37 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ced1c792-1f23-443f-b82d-42b8ae5d7a92")
+	)
+	(junction
 		(at 146.05 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5022,16 +5549,10 @@
 		(uuid "d235f1b1-ffe2-4eeb-b434-29ad951e37c9")
 	)
 	(junction
-		(at 255.27 55.88)
+		(at 29.21 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e70ad29b-969d-4f3e-8d74-a5b99ac5c18e")
-	)
-	(junction
-		(at 59.69 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f009490e-8ae6-4d10-aec4-847d118975ff")
+		(uuid "d6af7a27-e73e-4d09-8252-3863f853b949")
 	)
 	(junction
 		(at 36.83 57.15)
@@ -5047,16 +5568,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 57.15) (xy 128.27 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0233a472-7ddf-466c-8a6e-1d5cba237bb6")
-	)
-	(wire
-		(pts
 			(xy 265.43 80.01) (xy 265.43 105.41)
 		)
 		(stroke
@@ -5067,7 +5578,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 130.81) (xy 54.61 134.62)
+			(xy 39.37 124.46) (xy 36.83 124.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "06492eaa-b277-4f93-99ca-9acb27dce171")
+	)
+	(wire
+		(pts
+			(xy 54.61 129.54) (xy 54.61 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5087,23 +5608,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 130.81) (xy 54.61 130.81)
+			(xy 49.53 129.54) (xy 54.61 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a210f69-efdd-4a9f-bc69-8fe56599f7a4")
-	)
-	(wire
-		(pts
-			(xy 38.1 130.81) (xy 40.64 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e01a237-afc9-4dab-b8ed-6c9f326056be")
+		(uuid "0e595ae5-c510-4ac4-b898-57c94505a5fe")
 	)
 	(wire
 		(pts
@@ -5117,43 +5628,13 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 130.81) (xy 29.21 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f0f11e7-47e5-4e25-bd5d-f552c50d7523")
-	)
-	(wire
-		(pts
-			(xy 252.73 55.88) (xy 255.27 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "117eff76-d299-4254-b11c-0e38a474d9c2")
-	)
-	(wire
-		(pts
-			(xy 247.65 115.57) (xy 247.65 120.65)
+			(xy 39.37 39.37) (xy 36.83 39.37)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "135e5061-b752-46bb-af1e-ba0b434c2207")
-	)
-	(wire
-		(pts
-			(xy 59.69 39.37) (xy 59.69 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dea1ff7-3508-45ff-8f88-aa08ed0efdd6")
+		(uuid "11efe7a1-ae1d-400f-a169-617a6f8d519e")
 	)
 	(wire
 		(pts
@@ -5177,7 +5658,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 130.81) (xy 38.1 130.81)
+			(xy 36.83 129.54) (xy 39.37 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5187,7 +5668,17 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 105.41) (xy 247.65 99.06)
+			(xy 217.17 40.64) (xy 240.03 40.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2474b8c1-6209-49d9-8a74-fa3d6051b885")
+	)
+	(wire
+		(pts
+			(xy 247.65 105.41) (xy 247.65 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -5227,16 +5718,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 123.19) (xy 57.15 124.46)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2ffa2f16-2a0f-4f14-988a-aa6b8dffe806")
-	)
-	(wire
-		(pts
 			(xy 54.61 134.62) (xy 57.15 134.62)
 		)
 		(stroke
@@ -5264,6 +5745,16 @@
 			(type solid)
 		)
 		(uuid "3694185c-134c-4dd3-abda-f7ee9ae537b6")
+	)
+	(wire
+		(pts
+			(xy 67.31 39.37) (xy 59.69 39.37)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "37b6a426-f54d-440a-a19e-467ae1652910")
 	)
 	(wire
 		(pts
@@ -5297,16 +5788,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 123.19) (xy 57.15 123.19)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "480bdb2c-48b2-4f0f-b079-bd4d916b3a7c")
-	)
-	(wire
-		(pts
 			(xy 36.83 96.52) (xy 39.37 96.52)
 		)
 		(stroke
@@ -5337,6 +5818,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 124.46) (xy 57.15 124.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "540183b9-11b1-4674-84fa-d29b993bc1e5")
+	)
+	(wire
+		(pts
 			(xy 120.65 44.45) (xy 120.65 39.37)
 		)
 		(stroke
@@ -5344,6 +5835,16 @@
 			(type solid)
 		)
 		(uuid "5422d45b-113b-4a35-a2e0-bd8345b86e3b")
+	)
+	(wire
+		(pts
+			(xy 267.97 115.57) (xy 265.43 115.57)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "549f01ad-c34b-4c65-97d8-92c68056d960")
 	)
 	(wire
 		(pts
@@ -5367,16 +5868,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 123.19) (xy 38.1 123.19)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5bd79126-af65-441f-b7db-4e6869fb4ef3")
-	)
-	(wire
-		(pts
 			(xy 54.61 86.36) (xy 57.15 86.36)
 		)
 		(stroke
@@ -5387,7 +5878,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 39.37) (xy 90.17 44.45)
+			(xy 90.17 44.45) (xy 90.17 39.37)
 		)
 		(stroke
 			(width 0.1524)
@@ -5417,56 +5908,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 39.37) (xy 36.83 39.37)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "63088963-4408-4958-9f7e-67122876f758")
-	)
-	(wire
-		(pts
-			(xy 59.69 48.26) (xy 59.69 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65474078-f48a-4d4d-9412-c30d26be7197")
-	)
-	(wire
-		(pts
-			(xy 128.27 39.37) (xy 135.89 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71bb9951-0c1b-453a-bb05-e5c6f2dd6a46")
-	)
-	(wire
-		(pts
-			(xy 45.72 39.37) (xy 52.07 39.37)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "720097f8-5d27-44b7-a8d2-108ac6a90980")
-	)
-	(wire
-		(pts
-			(xy 135.89 44.45) (xy 135.89 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7249e642-321d-4d36-a3c4-b851d75a040e")
-	)
-	(wire
-		(pts
 			(xy 62.23 52.07) (xy 62.23 49.53)
 		)
 		(stroke
@@ -5487,7 +5928,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 17.78) (xy 222.25 21.59)
+			(xy 217.17 25.4) (xy 217.17 27.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -5517,7 +5958,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 80.01) (xy 247.65 83.82)
+			(xy 247.65 82.55) (xy 247.65 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -5527,13 +5968,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 40.64) (xy 240.03 40.64)
+			(xy 265.43 105.41) (xy 267.97 105.41)
 		)
 		(stroke
-			(width 0)
-			(type default)
+			(width 0.1524)
+			(type solid)
 		)
-		(uuid "827e553e-188b-4754-b3f6-10584b0ca315")
+		(uuid "85ec000b-c6db-4d39-bc41-fdc1341b0a8c")
 	)
 	(wire
 		(pts
@@ -5547,7 +5988,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 39.37) (xy 59.69 39.37)
+			(xy 59.69 39.37) (xy 52.07 39.37)
 		)
 		(stroke
 			(width 0.1524)
@@ -5567,6 +6008,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 30.48) (xy 270.51 33.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8f4afd22-7439-4db5-8e04-ea0585c76359")
+	)
+	(wire
+		(pts
 			(xy 143.51 106.68) (xy 146.05 106.68)
 		)
 		(stroke
@@ -5577,13 +6028,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 52.07) (xy 135.89 57.15)
+			(xy 44.45 39.37) (xy 52.07 39.37)
 		)
 		(stroke
-			(width 0)
-			(type default)
+			(width 0.1524)
+			(type solid)
 		)
-		(uuid "92607da7-4729-4b59-b544-1721a01f7ba6")
+		(uuid "94e8e289-27e1-4a6c-8660-d43c4803a164")
 	)
 	(wire
 		(pts
@@ -5627,13 +6078,23 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 39.37) (xy 97.79 44.45)
+			(xy 97.79 44.45) (xy 97.79 39.37)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "a455b935-a2b9-42db-8ebe-523400e6ebe6")
+	)
+	(wire
+		(pts
+			(xy 250.19 115.57) (xy 250.19 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a6f6c9f4-cb77-44dc-a42f-2970fbe416a4")
 	)
 	(wire
 		(pts
@@ -5677,7 +6138,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 123.19) (xy 29.21 129.54)
+			(xy 29.21 124.46) (xy 29.21 129.54)
 		)
 		(stroke
 			(width 0.1524)
@@ -5737,7 +6198,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 29.21) (xy 222.25 33.02)
+			(xy 217.17 38.1) (xy 217.17 40.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -5847,16 +6308,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 39.37) (xy 36.83 44.45)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "dc56164f-a5df-4c54-aeab-0ffdf219619a")
-	)
-	(wire
-		(pts
 			(xy 161.29 111.76) (xy 161.29 114.3)
 		)
 		(stroke
@@ -5884,26 +6335,6 @@
 			(type solid)
 		)
 		(uuid "e079cd9b-3744-46a0-8ef1-eda217377a00")
-	)
-	(wire
-		(pts
-			(xy 36.83 52.07) (xy 36.83 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e201aa75-255b-41d1-b135-d44d1ecfa6e1")
-	)
-	(wire
-		(pts
-			(xy 59.69 39.37) (xy 67.31 39.37)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e3b86152-9ba4-4556-82bf-4f4bffd47c93")
 	)
 	(wire
 		(pts
@@ -5954,6 +6385,26 @@
 			(type default)
 		)
 		(uuid "edfdf9ad-06b3-42ff-b4a8-ec3300a0e4b0")
+	)
+	(wire
+		(pts
+			(xy 247.65 115.57) (xy 250.19 115.57)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f050160f-62d6-4cb6-ae0b-f116a7a4569d")
+	)
+	(wire
+		(pts
+			(xy 250.19 105.41) (xy 247.65 105.41)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f19b2a9e-5ca9-4504-9a5b-f97f41a4dbde")
 	)
 	(wire
 		(pts
@@ -6024,6 +6475,16 @@
 			(type solid)
 		)
 		(uuid "fb21dc8b-bfa6-4c93-bde6-73a3d933d9d5")
+	)
+	(wire
+		(pts
+			(xy 36.83 43.18) (xy 36.83 39.37)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fc359439-1500-4e0e-93fd-73f6cf19d300")
 	)
 	(wire
 		(pts
@@ -6115,6 +6576,16 @@
 		)
 		(uuid "1c02cb4a-8561-478e-900a-82d278ff0a6e")
 	)
+	(label "QSPI_DATA[0]"
+		(at 222.25 35.56 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e274888-ab8e-4506-8643-996ec9138bb9")
+	)
 	(label "EN"
 		(at 62.23 52.07 270)
 		(effects
@@ -6165,6 +6636,16 @@
 		)
 		(uuid "23d50263-48b5-4d76-8f0c-4e6b23da3201")
 	)
+	(label "_CE"
+		(at 107.95 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25255069-2090-4128-b9d2-eaf1366ba231")
+	)
 	(label "QSPI_CS"
 		(at 247.65 80.01 0)
 		(effects
@@ -6204,16 +6685,6 @@
 			(justify left bottom)
 		)
 		(uuid "29625ce0-aa1b-4bc8-8a1e-c1d1a5312650")
-	)
-	(label "QSPI_CS"
-		(at 222.25 33.02 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "2988de61-8da3-4849-933b-7beab787a71e")
 	)
 	(label "RUN"
 		(at 57.15 73.66 90)
@@ -6315,6 +6786,16 @@
 		)
 		(uuid "5095a894-1698-407f-921e-6cce9811e4c0")
 	)
+	(label "QSPI_DATA[2]"
+		(at 222.25 43.18 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "55e032ee-9d50-424e-955c-141e8706c58a")
+	)
 	(label "SWD"
 		(at 57.15 147.32 180)
 		(effects
@@ -6355,6 +6836,16 @@
 		)
 		(uuid "734288fd-1a94-4be0-b21e-21be7d3182b5")
 	)
+	(label "QSPI_CS"
+		(at 222.25 40.64 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "75dc96d6-a96e-4350-93bf-697d9e0c0e8b")
+	)
 	(label "SWCLK"
 		(at 57.15 144.78 180)
 		(effects
@@ -6375,8 +6866,8 @@
 		)
 		(uuid "77f65380-9ae5-48ff-b73c-e69aac2cceec")
 	)
-	(label "GPIO16"
-		(at 107.95 119.38 0)
+	(label "GPIO15"
+		(at 107.95 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6384,16 +6875,6 @@
 			(justify left bottom)
 		)
 		(uuid "8353188f-3a38-4062-917a-79038ac37e98")
-	)
-	(label "QSPI_DATA[3]"
-		(at 222.25 45.72 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "83ffcca5-171a-4bef-b421-d2ea165a93d2")
 	)
 	(label "GPIO27{slash}A1"
 		(at 161.29 167.64 180)
@@ -6455,6 +6936,16 @@
 		)
 		(uuid "9a4dcfde-9e85-452d-9ce9-6d536e2fd017")
 	)
+	(label "QSPI_SCK"
+		(at 222.25 33.02 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d600977-1874-47aa-98ad-ee74dbbd458e")
+	)
 	(label "_WP"
 		(at 107.95 99.06 0)
 		(effects
@@ -6485,26 +6976,6 @@
 		)
 		(uuid "a7dcd9ad-31fc-42a9-abfc-f92087301a47")
 	)
-	(label "_CE"
-		(at 107.95 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a82e77e2-fbe5-47cd-8ef4-eacb0fb5d76b")
-	)
-	(label "QSPI_DATA[1]"
-		(at 222.25 40.64 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "af297608-4a39-487e-8ade-5c6cbd861ece")
-	)
 	(label "RUN"
 		(at 161.29 129.54 180)
 		(effects
@@ -6534,16 +7005,6 @@
 			(justify left bottom)
 		)
 		(uuid "bd8e1e6b-8ce4-458f-89b3-6c391ed7ef31")
-	)
-	(label "QSPI_SCK"
-		(at 222.25 35.56 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "c18ca87a-485a-4e86-86e6-8c3381a3202c")
 	)
 	(label "LED"
 		(at 107.95 104.14 0)
@@ -6585,6 +7046,16 @@
 		)
 		(uuid "cabf36b6-8eba-4312-867b-95c3481eb251")
 	)
+	(label "QSPI_DATA[1]"
+		(at 222.25 38.1 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccc9210f-b673-46e0-b5f1-3098de98fc0d")
+	)
 	(label "R{slash}_B"
 		(at 107.95 111.76 0)
 		(effects
@@ -6614,6 +7085,16 @@
 			(justify left bottom)
 		)
 		(uuid "d5617ffb-8041-4152-9e70-8ae07aa4c981")
+	)
+	(label "QSPI_DATA[3]"
+		(at 222.25 45.72 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "d61867c4-6d32-4132-bcc3-24f45c7f6eeb")
 	)
 	(label "GPIO22"
 		(at 161.29 154.94 180)
@@ -6685,7 +7166,7 @@
 		)
 		(uuid "eaf9ebc6-3e20-41c2-9c72-e4adf061c941")
 	)
-	(label "GPIO16"
+	(label "GPIO15"
 		(at 161.29 139.7 180)
 		(effects
 			(font
@@ -6704,26 +7185,6 @@
 			(justify right bottom)
 		)
 		(uuid "f0a3f9be-0f42-4ef5-a055-9ca550a135f8")
-	)
-	(label "QSPI_DATA[2]"
-		(at 222.25 43.18 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0e0f6d9-de3f-4696-8ac1-42a3da34a601")
-	)
-	(label "QSPI_DATA[0]"
-		(at 222.25 38.1 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "f1f90543-6a0d-4536-95ee-ae12e93cc311")
 	)
 	(label "SWCLK"
 		(at 161.29 134.62 180)
@@ -6756,8 +7217,8 @@
 		(uuid "fdca73e8-a22a-41aa-b84b-e29faf84e386")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 222.25 25.4 180)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_RESISTOR_0402NO")
+		(at 217.17 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6765,7 +7226,7 @@
 		(dnp no)
 		(uuid "0137825d-aad2-4010-bca6-1d518b6754d5")
 		(property "Reference" "R5"
-			(at 222.25 25.4 0)
+			(at 217.17 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6773,7 +7234,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 222.25 28.194 0)
+			(at 214.376 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6782,7 +7243,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 224.028 25.4 90)
+			(at 217.17 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6790,8 +7251,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 222.25 25.4 0)
+		(property "Datasheet" ""
+			(at 217.17 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,13 +7260,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 222.25 25.4 0)
+		(property "Description" ""
+			(at 217.17 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6824,8 +7284,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 33.02 123.19 90)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_CAP_CERAMIC_0402NO")
+		(at 34.29 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6833,7 +7293,7 @@
 		(dnp no)
 		(uuid "0480f27d-5a2f-4e8e-a3d0-0a566524535e")
 		(property "Reference" "C4"
-			(at 33.02 117.602 90)
+			(at 33.02 120.142 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6841,15 +7301,15 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 32.512 119.888 90)
+			(at 33.02 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 36.83 122.2248 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 34.29 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6857,8 +7317,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 33.02 123.19 0)
+		(property "Datasheet" ""
+			(at 34.29 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,13 +7326,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 33.02 123.19 0)
+		(property "Description" ""
+			(at 34.29 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6892,7 +7351,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 252.73 25.4 0)
+		(at 270.51 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6901,7 +7360,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a3a7a9c-5934-4b68-82ab-005dd9db2c8c")
 		(property "Reference" "#PWR04"
-			(at 252.73 29.21 0)
+			(at 270.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6910,7 +7369,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 252.73 20.32 0)
+			(at 270.51 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6918,7 +7377,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 25.4 0)
+			(at 270.51 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,7 +7386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 25.4 0)
+			(at 270.51 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6936,7 +7395,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 25.4 0)
+			(at 270.51 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7022,8 +7481,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 44.45 130.81 90)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_RESISTOR_0402NO")
+		(at 44.45 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7031,7 +7490,7 @@
 		(dnp no)
 		(uuid "19e78f00-8b5b-40eb-aaea-7a6608f238fe")
 		(property "Reference" "R6"
-			(at 44.958 130.81 0)
+			(at 44.45 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +7499,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 47.752 130.81 0)
+			(at 44.45 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7050,7 +7509,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 44.45 132.588 90)
+			(at 44.45 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,8 +7517,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 44.45 130.81 0)
+		(property "Datasheet" ""
+			(at 44.45 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,13 +7526,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 44.45 130.81 0)
+		(property "Description" ""
+			(at 44.45 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7092,8 +7550,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 247.65 110.49 270)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:adafruit_electromech_SWITCH_TACT_SMT_RKB2")
+		(at 250.19 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7101,7 +7559,7 @@
 		(dnp no)
 		(uuid "1ad3f9e5-94d3-4b82-be8f-abd57a51e105")
 		(property "Reference" "SW2"
-			(at 248.666 115.062 90)
+			(at 251.206 115.062 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -7110,7 +7568,7 @@
 			)
 		)
 		(property "Value" "KMR2"
-			(at 241.3 108.585 0)
+			(at 243.84 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -7119,7 +7577,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
-			(at 252.73 110.49 0)
+			(at 250.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7127,8 +7585,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 252.73 110.49 0)
+		(property "Datasheet" ""
+			(at 250.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7136,19 +7594,24 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 247.65 110.49 0)
+		(property "Description" ""
+			(at 250.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "A"
+			(uuid "246ee85a-adb0-470f-9634-c904707575da")
+		)
+		(pin "A'"
+			(uuid "b03015ce-f903-4ee3-893c-29632599efbe")
+		)
+		(pin "B"
 			(uuid "173ce399-9b0e-41fb-927c-bd3e4058738a")
 		)
-		(pin "1"
+		(pin "B'"
 			(uuid "13b245db-73cd-4ddc-8b47-3dba59338400")
 		)
 		(instances
@@ -7161,8 +7624,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 105.41 48.26 0)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_CAP_CERAMIC0805-NOOUTLINE")
+		(at 105.41 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7170,7 +7633,7 @@
 		(dnp no)
 		(uuid "23a69877-4587-43fe-b4e8-735da34c091f")
 		(property "Reference" "C6"
-			(at 103.12 47.01 90)
+			(at 103.12 48.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,7 +7641,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 107.71 47.01 90)
+			(at 107.71 48.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7186,7 +7649,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 106.3752 52.07 0)
+			(at 105.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7194,8 +7657,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 105.41 48.26 0)
+		(property "Datasheet" ""
+			(at 105.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7203,13 +7666,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 105.41 48.26 0)
+		(property "Description" ""
+			(at 105.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7299,7 +7761,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "33ce478a-cd68-404a-96f8-32e2d24a36f6")
 		(property "Reference" "#PWR017"
@@ -7359,8 +7821,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 120.65 48.26 0)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_CAP_CERAMIC0805-NOOUTLINE")
+		(at 120.65 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7368,7 +7830,7 @@
 		(dnp no)
 		(uuid "3709de49-1a88-4141-b7c8-9bbfac01d686")
 		(property "Reference" "C8"
-			(at 118.36 47.01 90)
+			(at 118.36 48.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7376,7 +7838,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 122.95 47.01 90)
+			(at 122.95 48.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7384,7 +7846,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 121.6152 52.07 0)
+			(at 120.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,8 +7854,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 120.65 48.26 0)
+		(property "Datasheet" ""
+			(at 120.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7401,13 +7863,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 120.65 48.26 0)
+		(property "Description" ""
+			(at 120.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7496,7 +7957,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "3e46b7b0-f062-4cf8-b605-2411e302cad3")
 		(property "Reference" "FB2"
@@ -7558,8 +8019,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_Flash:GD25QxxxEY")
-		(at 252.73 40.64 0)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_SPIFLASH_8PIN_4X4")
+		(at 255.27 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7567,7 +8028,7 @@
 		(dnp no)
 		(uuid "3ee35d94-f424-498d-873b-acb3b39f7fdb")
 		(property "Reference" "U4"
-			(at 240.03 27.94 0)
+			(at 242.57 27.94 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7576,7 +8037,7 @@
 			)
 		)
 		(property "Value" "8MB QSPI"
-			(at 240.03 50.8 0)
+			(at 242.57 50.8 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7584,8 +8045,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_4x4mm_P0.8mm_EP2.2x3mm"
-			(at 252.476 65.532 0)
+		(property "Footprint" "Package_SON:WSON-8-1EP_4x4mm_P0.8mm_EP1.98x3mm"
+			(at 255.27 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7593,8 +8054,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/W25Q64JV%20RevK%2003102021%20Plus.pdf"
-			(at 252.73 67.818 0)
+		(property "Datasheet" ""
+			(at 255.27 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7602,13 +8063,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.0V, Standard/Dual/Quad Serial Flash, WSON-8"
-			(at 252.73 69.85 0)
+		(property "Description" ""
+			(at 255.27 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7635,7 +8095,7 @@
 		(pin "8"
 			(uuid "35d9ee54-e4b5-41d4-a699-c559f7fe7d12")
 		)
-		(pin "9"
+		(pin "PAD"
 			(uuid "ba21611d-007b-491b-a42a-0d642e197f77")
 		)
 		(instances
@@ -7648,8 +8108,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 128.27 48.26 0)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_CAP_CERAMIC0805-NOOUTLINE")
+		(at 128.27 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7657,7 +8117,7 @@
 		(dnp no)
 		(uuid "494969a7-4019-4105-9b50-67829ce0bc13")
 		(property "Reference" "C9"
-			(at 125.98 47.01 90)
+			(at 125.98 48.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +8125,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 130.57 47.01 90)
+			(at 130.57 48.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7673,7 +8133,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 129.2352 52.07 0)
+			(at 128.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7681,8 +8141,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 128.27 48.26 0)
+		(property "Datasheet" ""
+			(at 128.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,13 +8150,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 128.27 48.26 0)
+		(property "Description" ""
+			(at 128.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7715,8 +8174,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 33.02 130.81 90)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_CAP_CERAMIC_0402NO")
+		(at 34.29 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7724,7 +8183,7 @@
 		(dnp no)
 		(uuid "4a46ce8e-4cd1-4055-99b8-b3c3bcf46f3a")
 		(property "Reference" "C5"
-			(at 33.04 134.878 90)
+			(at 33.04 131.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7732,15 +8191,15 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 33.02 136.652 90)
+			(at 33.02 133.604 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 36.83 129.8448 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 34.29 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7748,8 +8207,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 33.02 130.81 0)
+		(property "Datasheet" ""
+			(at 34.29 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7757,13 +8216,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 33.02 130.81 0)
+		(property "Description" ""
+			(at 34.29 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7809,7 +8267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
+		(property "Footprint" "usb-toolbag:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
 			(at 82.55 116.84 0)
 			(effects
 				(font
@@ -7818,7 +8276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf"
 			(at 82.55 116.84 0)
 			(effects
 				(font
@@ -8152,8 +8610,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 90.17 48.26 0)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_CAP_CERAMIC0805-NOOUTLINE")
+		(at 90.17 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8161,7 +8619,7 @@
 		(dnp no)
 		(uuid "6260f510-8cb5-4ef6-82d6-9f186650c7ee")
 		(property "Reference" "C2"
-			(at 87.88 47.01 90)
+			(at 87.88 48.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +8627,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 92.47 47.01 90)
+			(at 92.47 48.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8177,7 +8635,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 91.1352 52.07 0)
+			(at 90.17 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8185,8 +8643,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 90.17 48.26 0)
+		(property "Datasheet" ""
+			(at 90.17 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8194,17 +8652,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 90.17 48.26 0)
+		(property "Description" ""
+			(at 90.17 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "REV" "A"
-			(at 90.17 48.26 0)
+			(at 90.17 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8314,74 +8771,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 135.89 48.26 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6528519a-a51a-4cec-b71a-de555bf1bb2d")
-		(property "Reference" "C10"
-			(at 138.18 47.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 133.59 47.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 134.9248 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 135.89 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de2d320c-fb7f-45bb-bfb4-855583da048f")
-		)
-		(pin "2"
-			(uuid "53ee7966-d70f-4593-a0dc-696019a358ea")
-		)
-		(instances
-			(project "usb-toolbag"
-				(path "/51676427-311c-482b-bfc7-5e58b020eaff"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 158.75 119.38 0)
 		(unit 1)
@@ -8447,8 +8836,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 247.65 87.63 0)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_RESISTOR_0402NO")
+		(at 247.65 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8456,7 +8845,7 @@
 		(dnp no)
 		(uuid "6bf8ba76-8468-4317-b12f-ca80e16a3446")
 		(property "Reference" "R7"
-			(at 247.65 84.836 0)
+			(at 250.444 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8464,7 +8853,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 247.65 90.424 0)
+			(at 244.856 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8473,15 +8862,6 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 245.872 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
 			(at 247.65 87.63 0)
 			(effects
 				(font
@@ -8490,13 +8870,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Datasheet" ""
 			(at 247.65 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8515,8 +8903,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 247.65 95.25 90)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:adafruit_DIODESOD-323F")
+		(at 247.65 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8524,7 +8912,7 @@
 		(dnp no)
 		(uuid "769685ed-01bb-4183-87a8-e7d3f7d41d3d")
 		(property "Reference" "D2"
-			(at 244.856 95.25 0)
+			(at 250.444 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -8532,7 +8920,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 250.19 95.25 0)
+			(at 245.11 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -8548,7 +8936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 247.65 95.25 0)
 			(effects
 				(font
@@ -8557,37 +8945,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 247.65 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 247.65 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 247.65 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
+		(pin "A"
 			(uuid "57d5b372-dec8-458f-92c8-64b8df0e9510")
 		)
-		(pin "1"
+		(pin "C"
 			(uuid "fb8e2d1e-08e9-401c-bc9e-6249a842c8a9")
 		)
 		(instances
@@ -8796,8 +9165,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 41.91 39.37 180)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:adafruit_DIODESOD-323F")
+		(at 41.91 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8805,7 +9174,7 @@
 		(dnp no)
 		(uuid "9940841b-a9f6-4dcd-bcb6-eba27da6cc13")
 		(property "Reference" "D1"
-			(at 41.91 41.91 0)
+			(at 41.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -8813,7 +9182,7 @@
 			)
 		)
 		(property "Value" "PMEG2020AEA"
-			(at 41.656 35.306 0)
+			(at 41.91 41.656 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -8829,7 +9198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 41.91 39.37 0)
 			(effects
 				(font
@@ -8838,37 +9207,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 41.91 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
+		(pin "A"
 			(uuid "df6b8ee5-adcb-4ba0-9570-c5c38f07dec0")
 		)
-		(pin "1"
+		(pin "C"
 			(uuid "cf0eef34-2999-41dc-8039-e3db2a2f2baa")
 		)
 		(instances
@@ -8881,8 +9231,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 36.83 48.26 180)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_RESISTOR_0402NO")
+		(at 36.83 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8898,7 +9248,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 36.83 45.212 0)
+			(at 39.878 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8907,15 +9257,6 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 38.608 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
 			(at 36.83 48.26 0)
 			(effects
 				(font
@@ -8924,13 +9265,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Datasheet" ""
 			(at 36.83 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8949,8 +9298,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
-		(at 38.1 127 90)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_CRYSTAL2.5X2.0")
+		(at 39.37 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8958,7 +9307,7 @@
 		(dnp no)
 		(uuid "a0c4a4b0-9c88-417a-b876-e70752c63812")
 		(property "Reference" "Y1"
-			(at 38.1 122.174 90)
+			(at 39.37 122.174 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -8967,7 +9316,7 @@
 			)
 		)
 		(property "Value" "12MHz"
-			(at 35.814 127 0)
+			(at 37.084 127 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -8976,7 +9325,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
-			(at 38.1 127 0)
+			(at 39.37 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,8 +9333,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 38.1 127 0)
+		(property "Datasheet" ""
+			(at 39.37 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8993,19 +9342,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal"
-			(at 38.1 127 0)
+		(property "Description" ""
+			(at 39.37 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "dd382805-61fb-4640-853a-883fa48b3b79")
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "9973af1b-20eb-459c-946d-d8410b8ade3a")
 		)
 		(instances
@@ -9434,7 +9782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "usb-toolbag:LED_1206_3216Metric"
 			(at 130.81 124.46 0)
 			(effects
 				(font
@@ -9443,7 +9791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 130.81 124.46 0)
 			(effects
 				(font
@@ -9476,8 +9824,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 59.69 44.45 180)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_RESISTOR_0402NO")
+		(at 59.69 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9493,7 +9841,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 59.69 47.244 0)
+			(at 56.896 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9502,15 +9850,6 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 61.468 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
 			(at 59.69 44.45 0)
 			(effects
 				(font
@@ -9519,13 +9858,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Datasheet" ""
 			(at 59.69 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9545,7 +9892,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 120.65 0)
+		(at 250.19 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9554,7 +9901,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccf2a5a9-f205-4d03-a4de-6a2bd94a4196")
 		(property "Reference" "#PWR012"
-			(at 247.65 127 0)
+			(at 250.19 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9563,7 +9910,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 125.73 0)
+			(at 250.19 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,7 +9918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 120.65 0)
+			(at 250.19 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9580,7 +9927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 120.65 0)
+			(at 250.19 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9589,7 +9936,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 120.65 0)
+			(at 250.19 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9872,8 +10219,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 52.07 48.26 0)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_CAP_CERAMIC0805-NOOUTLINE")
+		(at 52.07 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9881,7 +10228,7 @@
 		(dnp no)
 		(uuid "e0395b01-0a0a-41ce-9961-648137047884")
 		(property "Reference" "C1"
-			(at 49.276 46.99 90)
+			(at 49.276 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9889,7 +10236,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 54.37 47.01 90)
+			(at 54.37 48.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9897,7 +10244,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 53.0352 52.07 0)
+			(at 52.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9905,8 +10252,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 52.07 48.26 0)
+		(property "Datasheet" ""
+			(at 52.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9914,13 +10261,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 52.07 48.26 0)
+		(property "Description" ""
+			(at 52.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9940,7 +10286,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 222.25 17.78 0)
+		(at 217.17 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9949,7 +10295,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0a62c9d-e38f-4bef-a698-d2ba80ae4d4e")
 		(property "Reference" "#PWR05"
-			(at 222.25 21.59 0)
+			(at 217.17 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9958,7 +10304,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 222.25 12.7 0)
+			(at 217.17 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9966,7 +10312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 17.78 0)
+			(at 217.17 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9975,7 +10321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 17.78 0)
+			(at 217.17 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9984,7 +10330,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 17.78 0)
+			(at 217.17 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10004,8 +10350,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 97.79 48.26 0)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_CAP_CERAMIC0805-NOOUTLINE")
+		(at 97.79 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10013,7 +10359,7 @@
 		(dnp no)
 		(uuid "e19f8dc3-7aed-45ea-8250-fa55ea3265bb")
 		(property "Reference" "C3"
-			(at 95.5 47.01 90)
+			(at 95.5 48.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10021,7 +10367,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 100.09 47.01 90)
+			(at 100.09 48.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10029,7 +10375,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 98.7552 52.07 0)
+			(at 97.79 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10037,8 +10383,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 97.79 48.26 0)
+		(property "Datasheet" ""
+			(at 97.79 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10046,13 +10392,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 97.79 48.26 0)
+		(property "Description" ""
+			(at 97.79 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10269,7 +10614,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 55.88 0)
+		(at 270.51 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10278,7 +10623,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1f15c7c-56c2-4b7d-a4a0-c0159cd8b927")
 		(property "Reference" "#PWR011"
-			(at 255.27 62.23 0)
+			(at 270.51 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10287,7 +10632,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 60.96 0)
+			(at 270.51 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,7 +10640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 55.88 0)
+			(at 270.51 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10304,7 +10649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 55.88 0)
+			(at 270.51 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10313,7 +10658,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 55.88 0)
+			(at 270.51 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10400,8 +10745,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 113.03 48.26 0)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:microbuilder_CAP_CERAMIC0805-NOOUTLINE")
+		(at 113.03 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10409,7 +10754,7 @@
 		(dnp no)
 		(uuid "f7b4d116-7636-4259-9354-f8f552946e58")
 		(property "Reference" "C7"
-			(at 110.74 47.01 90)
+			(at 110.74 48.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10417,7 +10762,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 115.33 47.01 90)
+			(at 115.33 48.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10425,7 +10770,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 113.9952 52.07 0)
+			(at 113.03 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10433,8 +10778,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 113.03 48.26 0)
+		(property "Datasheet" ""
+			(at 113.03 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10442,13 +10787,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 113.03 48.26 0)
+		(property "Description" ""
+			(at 113.03 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10467,8 +10811,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 265.43 110.49 270)
+		(lib_id "Adafruit Feather RP2040 DVI-eagle-import:adafruit_electromech_SWITCH_TACT_SMT_RKB2")
+		(at 267.97 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10476,7 +10820,7 @@
 		(dnp no)
 		(uuid "fe2e76c7-d939-4617-bd21-c93b48dd9c6e")
 		(property "Reference" "SW1"
-			(at 266.446 115.062 90)
+			(at 268.986 115.062 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -10485,7 +10829,7 @@
 			)
 		)
 		(property "Value" "KMR2"
-			(at 259.08 108.585 0)
+			(at 261.62 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -10494,7 +10838,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
-			(at 270.51 110.49 0)
+			(at 267.97 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10502,8 +10846,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 270.51 110.49 0)
+		(property "Datasheet" ""
+			(at 267.97 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10511,20 +10855,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 265.43 110.49 0)
+		(property "Description" ""
+			(at 267.97 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "A"
 			(uuid "7d167b5c-0790-4604-b0d8-889952d93d1d")
 		)
-		(pin "1"
+		(pin "A'"
 			(uuid "cedf779f-1feb-4301-9d11-31792e377cd5")
+		)
+		(pin "B"
+			(uuid "90315f70-1e61-4c67-84e8-9095896ac43f")
+		)
+		(pin "B'"
+			(uuid "544995bc-6261-4c97-bb34-33d404ff566e")
 		)
 		(instances
 			(project "nidra_r2"
